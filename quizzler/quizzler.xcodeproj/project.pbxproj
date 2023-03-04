@@ -14,7 +14,7 @@
 		CD3B925429AF7B2100CFE321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3B925329AF7B2100CFE321 /* Assets.xcassets */; };
 		CD3B925729AF7B2100CFE321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD3B925529AF7B2100CFE321 /* LaunchScreen.storyboard */; };
 		CD6B2A8F29B3E71800C75349 /* QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A8E29B3E71800C75349 /* QuestionModel.swift */; };
-		CD6B2A9129B3E73700C75349 /* QuestionBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A9029B3E73700C75349 /* QuestionBrain.swift */; };
+		CD6B2A9129B3E73700C75349 /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B2A9029B3E73700C75349 /* QuizBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		CD3B925629AF7B2100CFE321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD3B925829AF7B2100CFE321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD6B2A8E29B3E71800C75349 /* QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionModel.swift; sourceTree = "<group>"; };
-		CD6B2A9029B3E73700C75349 /* QuestionBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBrain.swift; sourceTree = "<group>"; };
+		CD6B2A9029B3E73700C75349 /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				CD6B2A8E29B3E71800C75349 /* QuestionModel.swift */,
-				CD6B2A9029B3E73700C75349 /* QuestionBrain.swift */,
+				CD6B2A9029B3E73700C75349 /* QuizBrain.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 				CD3B924F29AF7B2000CFE321 /* ViewController.swift in Sources */,
 				CD3B924B29AF7B2000CFE321 /* AppDelegate.swift in Sources */,
 				CD3B924D29AF7B2000CFE321 /* SceneDelegate.swift in Sources */,
-				CD6B2A9129B3E73700C75349 /* QuestionBrain.swift in Sources */,
+				CD6B2A9129B3E73700C75349 /* QuizBrain.swift in Sources */,
 				CD6B2A8F29B3E71800C75349 /* QuestionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
