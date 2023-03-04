@@ -88,6 +88,13 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="amc-IB-CyY" secondAttribute="bottom" id="z7m-TG-4ZB"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="falseBtn" destination="duI-3A-coT" id="rFp-JJ-nxm"/>
+                        <outlet property="progressBar" destination="kjf-LU-Cnu" id="wAy-f3-mNc"/>
+                        <outlet property="questionLbl" destination="yfB-kO-quA" id="jYC-3f-mZR"/>
+                        <outlet property="scoreLbl" destination="vcs-9j-LkP" id="7bb-Te-Zme"/>
+                        <outlet property="trueBtn" destination="FJU-jw-CUx" id="fBa-o4-Q5H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
