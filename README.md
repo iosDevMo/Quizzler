@@ -1,2 +1,4 @@
 # Quizzler App
-select answer
+* select answer
+* progress bar shows progress of completed questions answered
+* shows right answers score
